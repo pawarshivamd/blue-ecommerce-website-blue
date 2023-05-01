@@ -232,10 +232,17 @@ select:focus {
             }
         }
 
-        .dropdown-menu li a {
-            color: var(--black);
-        }
-
+        .dropdown-menu {
+            background-color: var(--light);
+            li{
+                a {
+                color: var(--black);
+                &:hover{
+                   background-color: transparent;
+               }
+                 }
+        } 
+    }
 
         .dropdown:hover .dropdown-menu {
             display: block;
@@ -259,11 +266,10 @@ select:focus {
             // padding: 20px;
             &:hover {
                 color: var(--theam-colour);
-                background-color: white;
+                // background-color: white;
 
             }
         }
-
         .mydropudowan {
             // border:5px solid red ;
             position: absolute;

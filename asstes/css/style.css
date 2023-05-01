@@ -1887,8 +1887,14 @@ select:focus {
 .nav-section .nav-ul .nav-item a:hover {
   color: var(--theam-colour);
 }
+.nav-section .nav-ul .dropdown-menu {
+  background-color: var(--light);
+}
 .nav-section .nav-ul .dropdown-menu li a {
   color: var(--black);
+}
+.nav-section .nav-ul .dropdown-menu li a:hover {
+  background-color: transparent;
 }
 .nav-section .nav-ul .dropdown:hover .dropdown-menu {
   display: block;
@@ -1907,7 +1913,6 @@ select:focus {
 }
 .nav-section .nav-ul .dropdown-menu .dropdown-item:hover {
   color: var(--theam-colour);
-  background-color: white;
 }
 .nav-section .nav-ul .mydropudowan {
   position: absolute;
